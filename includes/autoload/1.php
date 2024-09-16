@@ -3,7 +3,8 @@
 function __autoload($nomeClasse){
     require_once("$nomeClasse.php");
 }
-    $carro = new DelRey();
+    $carro = new Gol();
+    echo "<br/>";
     $carro->acelerar(80);
 
 ?>

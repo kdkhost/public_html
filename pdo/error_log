@@ -1,0 +1,5 @@
+[28-Jun-2019 11:21:07 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: could not find driver in /home/php7transferenci/public_html/pdo/2.php:10
+Stack trace:
+#0 /home/php7transferenci/public_html/pdo/2.php(10): PDO->__construct('sqlsrv:Database...', 'php7transferenc...', 'udemy2019.')
+#1 {main}
+  thrown in /home/php7transferenci/public_html/pdo/2.php on line 10

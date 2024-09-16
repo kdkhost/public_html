@@ -6,7 +6,7 @@ interface Veiculo {
     public function trocarMarcha($marcha);
 }
 
-abstract class Automovel implements veiculo {
+abstract class Automovel implements Veiculo {
     public function acelerar($velocidade)
     {
         echo "O Carro Acelerou até " . $velocidade . " km/h";

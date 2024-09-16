@@ -1,0 +1,6 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/php7transferenci/public_html/
+ - /bin/cp * $DEPLOYPATH
+ - # Curso de PHP 7 da Udemy
